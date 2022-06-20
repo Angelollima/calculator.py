@@ -41,7 +41,7 @@ def main() -> None:
                 print(BOLD_TEXT.format("That's not a number!"))
                 continue
             r = operations["s"](float(number))
-            print(BOLD_TEXT.format(f"The square of {number} is: {r:.2f}"))
+            print(BOLD_TEXT.format(f"The square root of {number} is: {r:.2f}"))
 
         elif operation in operations:
             number_1 = input("Enter first number: ")
