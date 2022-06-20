@@ -8,7 +8,7 @@ OPTIONS = """options:
 - for subtraction
 * for multiplication
 / for division
-s for square
+s for square root
 c for clean
 q to exit
 :-> """
